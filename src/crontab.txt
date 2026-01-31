@@ -1,0 +1,5 @@
+# Runs the follower.py script
+@reboot sleep 5 && /home/oreo-pi/PythonDir/SpringtrapCodebase/venv/bin/python /home/oreo-pi/PythonDir/SpringtrapCodebase/follower.py > /home/oreo-pi/logs/cron-follower.log 2>&1
+
+# Runs the shutdown-press-simple.py script
+@reboot sleep 5 && /home/oreo-pi/PythonDir/SpringtrapCodebase/venv/bin/python /home/oreo-pi/PythonDir/SpringtrapCodebase/shutdown_button/shutdown-press-simple.py > /home/oreo-pi/logs/cron-shutdown.log 2>&1
