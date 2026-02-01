@@ -21,9 +21,14 @@ The animatronic structure is almost entirely **3D printed**, with multiple **ser
 - Command-line interface for manual control  
 - Camera-based object tracking using **OpenCV**
 
+## Hardware
+
+- Raspberry Pi Zero 2 W
+- PCA9685 16-channel servo driver HAT
+
 ## Computer Vision & Tracking
 
-The project has evolved beyond simple scripted movements. With the addition of a **camera module** and **OpenCV**, Springtrap is capable of detecting and tracking objects in real time. This allows the animatronic to respond dynamically to its environment, producing movements that feel significantly more lifelike—and unsettling.
+The project has evolved beyond simple scripted movements. With the addition of a **camera module** and **OpenCV**, Springtrap is capable of detecting and tracking objects in real time. This allows the animatronic to respond dynamically to its environment, producing movements that feel significantly more lifelike and unsettling.
 
 ## Project Goals
 
