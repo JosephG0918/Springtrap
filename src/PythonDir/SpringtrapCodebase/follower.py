@@ -103,9 +103,7 @@ def main():
 
     kit = ServoKit(channels=16)
 
-    # --------------------
     # Calibration runs first; not needed but I deem it necessary for safety
-    # --------------------
     helpers.calibration(kit)
 
     # --------------------
@@ -170,10 +168,10 @@ def main():
 
             if active_controller == "eyes":
                 eyes_angle_ave = eyes_angle * eyes_alpha + eyes_angle_ave * (1 - eyes_alpha)
-                pan_angle_ave = X_CENTER * pan_alpha + pan_angle_ave * (1 - pan_alpha)
+                pan_angle_ave = X_CENTER * pan_alpha + pan_angle_ave * (1 - pan_alpha) # Default panning angle (looking straight)
             else:
                 pan_angle_ave = pan_angle * pan_alpha + pan_angle_ave * (1 - pan_alpha)
-                eyes_angle_ave = EYE_CENTER * eyes_alpha + eyes_angle_ave * (1 - eyes_alpha)
+                eyes_angle_ave = EYE_CENTER * eyes_alpha + eyes_angle_ave * (1 - eyes_alpha) # Default eyes angle (looking straight)
 
             # --------------------
             # TILT (nod logic)
