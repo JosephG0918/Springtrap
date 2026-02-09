@@ -37,4 +37,7 @@ The project has evolved beyond simple scripted movements. With the addition of a
 - Combine mechanical motion with computer vision  
 - Serve as a learning platform for robotics, servos, and OpenCV
 
+## Power Notes
+> ⚠️ Always use the soft shutdown button before turning off the hard power switch to avoid SD card corruption.
+
 ![alt text](./img/IMG_0546.png)
