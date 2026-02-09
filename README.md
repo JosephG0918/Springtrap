@@ -40,4 +40,5 @@ The project has evolved beyond simple scripted movements. With the addition of a
 ## Power Notes
 > ⚠️ Always use the soft shutdown button before turning off the hard power switch to avoid SD card corruption.
 
+## IMG
 ![alt text](./img/IMG_0546.png)
