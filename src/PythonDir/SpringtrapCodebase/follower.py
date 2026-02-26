@@ -24,8 +24,8 @@ R_EYE_BALL = 2
 R_EYE_LID = 3
 JAW = 4
 NECK_X = 5
-NECK_Y_RIGHT = 6
-NECK_Y_LEFT = 7
+NECK_Y_RIGHT = 6 # Right rod
+NECK_Y_LEFT = 7 # Left rod
 
 def main():
     # Camera X range
@@ -52,7 +52,7 @@ def main():
 
     last_tilt_time = time.time()
     tilt_hold_start = None
-    TILT_INTERVAL = 15.0    # how often nods may occur
+    TILT_INTERVAL = 20.0    # how often nods may occur
     TILT_HOLD_TIME = 3.0    # how long to hold up/down
 
     # Eyes
