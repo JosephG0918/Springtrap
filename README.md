@@ -41,6 +41,6 @@ The project has evolved beyond simple scripted movements. With the addition of a
 > ⚠️ Always use the soft shutdown button before turning off the hard power switch to avoid SD card corruption.
 
 ## IMG
-![img1](./img/img1)
-![img2](./img/img2)
-![img3](./img/img3)
+![img1](./img/img1.png)
+![img2](./img/img2.png)
+![img3](./img/img3.png)
