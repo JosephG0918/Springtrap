@@ -17,9 +17,10 @@ The animatronic structure is almost entirely **3D printed**, with multiple **ser
   - Eyes
   - Eyelids
   - Chin / head tilt
-- Modular, serviceable 3D-printed design  
-- Command-line interface for manual control  
+- Modular, serviceable 3D-printed design
+- Command-line interface for manual control
 - Camera-based object tracking using **OpenCV**
+- Multi-color LED eyeballs (Newest addition)
 
 ## Hardware
 
