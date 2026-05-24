@@ -1,3 +1,3 @@
 #!/bin/bash
 
-PYTHONPATH=/home/oreo-pi/PythonDir/SpringtrapCodebase /home/oreo-pi/PythonDir/SpringtrapCodebase/venv/bin/python /home/oreo-pi/PythonDir/SpringtrapCodebase/servos_CLI/CLI.py
+PYTHONPATH=/home/<user>/PythonDir/SpringtrapCodebase /home/<user>/PythonDir/SpringtrapCodebase/<venv>/bin/python /home/<user>/PythonDir/SpringtrapCodebase/servos_CLI/CLI.py

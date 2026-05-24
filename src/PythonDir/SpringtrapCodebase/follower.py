@@ -9,7 +9,7 @@ from servos_package import helpers
 
 # Logging setup
 logging.basicConfig(
-    filename="/home/oreo-pi/logs/follower.log",
+    filename="/home/<user>/logs/follower.log",
     level=logging.INFO,
     filemode="w",
     format="%(asctime)s [%(levelname)s] %(message)s"

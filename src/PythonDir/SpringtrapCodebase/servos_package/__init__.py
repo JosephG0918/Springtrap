@@ -4,7 +4,7 @@ import time
 from . import helpers
 
 logging.basicConfig(
-    filename="/home/oreo-pi/logs/servo_errors.log",  # Log file name
+    filename="/home/<user>/logs/servo_errors.log",  # Log file name
     level=logging.ERROR,                             # Only log errors and above
     filemode="w",
     format="%(asctime)s [%(levelname)s] %(message)s"
