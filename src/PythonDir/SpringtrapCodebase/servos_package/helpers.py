@@ -2,9 +2,14 @@ from adafruit_servokit import ServoKit
 import time
 
 def calibration(kit):
+    """
+    Moves all servos to their calibrated default positions.
+
+    :param kit: ServoKit instance controlling the PCA9685 servo driver
+    """
 
     # Initialize the servokit with 16 channels
-    #kit = ServoKit(channels=16)
+    # kit = ServoKit(channels=16)
 
     # Servo channel assignments
     L_EYE_BALL = 0

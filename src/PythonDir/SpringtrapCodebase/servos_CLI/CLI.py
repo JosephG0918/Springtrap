@@ -84,7 +84,7 @@ while True:
             try:
                 x = int(input("Rounds // Press enter for default: "))
             except:
-                x = 1
+                x = 5
             try:
                 y = float(input("Step delay (milliseconds) // Press enter for default: "))
                 dance(x, y)

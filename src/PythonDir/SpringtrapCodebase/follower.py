@@ -24,8 +24,8 @@ R_EYE_BALL = 2
 R_EYE_LID = 3
 JAW = 4
 NECK_X = 5
-NECK_Y_RIGHT = 6 # Right rod
-NECK_Y_LEFT = 7 # Left rod
+NECK_Y_RIGHT = 6  # Right linkage rod
+NECK_Y_LEFT = 7   # Left linkage rod
 
 def main():
     # Camera X range
@@ -42,9 +42,9 @@ def main():
     pan_alpha = 0.15
 
     # Neck TILT (Y axis)
-    Y_UP = 40
+    Y_UP = 60
     Y_CENTER = 90
-    Y_DOWN = 140
+    Y_DOWN = 120
 
     tilt_angle = Y_CENTER
     tilt_angle_ave = Y_CENTER
@@ -210,6 +210,16 @@ def main():
 
 # Converts the position of a detected object from camera coordinates into a servo angle
 def remap(x, in_min, in_max, out_min, out_max):
+    """
+    Converts a value from one range into the corresponding value in another range.
+
+    :param x: Value to convert
+    :param in_min: Lower bound of the input range
+    :param in_max: Upper bound of the input range
+    :param out_min: Lower bound of the output range
+    :param out_max: Upper bound of the output range
+    :return: Mapped value in the output range
+    """
     x = max(in_min, min(x, in_max))
     return (x - in_min) * (out_max - out_min) / (in_max - in_min) + out_min
 
